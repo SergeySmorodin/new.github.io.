@@ -135,7 +135,7 @@ sup {
 
 .header-title {
   margin: 0 auto;
-  line-height: 1.625;
+  /* line-height: 1.625; */
   color: var(--color-descr);
   text-align: center;
   text-transform: uppercase;
@@ -155,7 +155,8 @@ sup {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 1.75rem 0.9375rem 0;
+  padding: 2.1rem 0.5rem 0 1.2rem;
+  /* padding: 1.75rem 0.9375rem 0; */
   color: var(--color-descr);
 }
 
@@ -947,7 +948,8 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 /*==================================*/
 @media (min-width: 641px) and (max-width: 1200px){
   .header {
-    margin-bottom: 3.125rem;
+    /* margin-bottom: 3.125rem; */
+    max-height: 400px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url('../images/banner-bg-tablet.jpg');
     background-size: cover;
@@ -966,7 +968,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
     margin: auto;
     padding-top: 6.5rem;
     padding-bottom: 7.75rem;
-    max-width: 38rem;
+    max-width: 39rem;
     font-size: 2.5rem;
   }
 
