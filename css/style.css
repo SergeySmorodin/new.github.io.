@@ -1077,6 +1077,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   .form {
     padding: 0 0 2rem;
   }
+  
   .side-item-title {
     margin-bottom: 2.25rem;
     font-size: 1rem;
