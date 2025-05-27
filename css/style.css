@@ -744,15 +744,22 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 
 /*==============================================*/
 @media (max-width: 640px) {
+  .flex {
+    display: block;
+  }
+
   .header {
-    margin-bottom: 2.75rem;
+    /* margin-bottom: 2.75rem; */
+    margin-bottom: 1.9rem;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url('../images/banner-mobile.jpg');
     background-size: 100% calc(640*100vw/360);
+    max-height: 40rem;
   }
 
   .burger {
     margin-top: 2rem;
+    margin-right: 0;
   }
 
   .menu-list, .tablet, .desktop{
@@ -772,7 +779,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 
   .header-title {
     margin-bottom: auto;
-    padding-top: 2.75rem;
+    padding-top: 5.9rem;
     padding-bottom: 13.75rem;
     max-width: 20.625rem;
     font-size: 1.625rem;
@@ -785,7 +792,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   /*=======================================*/
   /*TRENDS*/
   .trends {
-    margin-bottom: 2.75rem;
+    margin: 2.5rem 0 0.9rem;
   }
 
   .section-title {
@@ -826,6 +833,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   /*ARTICLES*/
   .articles {
     margin-bottom: 2.75rem;
+    min-width: 21.875rem;
   }
 
   .article {
@@ -834,7 +842,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .article:not(:last-child) {
-    margin-bottom: 2.25rem;
+    /* margin-bottom: 2.25rem; */
   }
 
   .article-image {
@@ -842,7 +850,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .article-content {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .article-title {
@@ -931,6 +939,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   .trends-list-item {
     width: 100%;
     margin-bottom: 2px;
+    min-height: 240px;
   }
 }
 
@@ -1077,7 +1086,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   .form {
     padding: 0 0 2rem;
   }
-  
+
   .side-item-title {
     margin-bottom: 2.25rem;
     font-size: 1rem;
