@@ -993,7 +993,8 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .trends-item {
-    padding: 2.125rem 1.875rem;
+    padding: 1.3rem 1.85rem;
+    /* padding: 2.125rem 1.875rem; */
   }
 
   .trends-title {
@@ -1018,7 +1019,8 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   /*=======================================*/
   /*ARTICLES*/
   .articles {
-    width: calc(100vw - 2.25rem - 16.875rem);
+    /* width: calc(100vw - 2.25rem - 16.875rem); */
+    width: calc(100vw - 2.25rem - 19rem);
     margin-right: 2.25rem;
   }
 
@@ -1068,9 +1070,13 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .side-item {
-    margin-bottom: 2.75rem;
+    /* margin-bottom: 2.75rem; */
+    margin-bottom: 2.2rem;
   }
 
+  .form {
+    padding: 0 0 2rem;
+  }
   .side-item-title {
     margin-bottom: 2.25rem;
     font-size: 1rem;
@@ -1126,6 +1132,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
   .trends-list-item {
+    min-height: 15.5rem;
     width: calc(50% - 2px);
     margin-bottom: 2px;
   }
