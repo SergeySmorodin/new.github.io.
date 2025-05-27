@@ -60,7 +60,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* margin: 0; */
+  margin: 0;
   font-weight: bold;
 }
 
@@ -96,6 +96,7 @@ sup {
   position: relative;
   vertical-align: baseline;
   top: -0.5em;
+  padding: 0.2rem;
   font-weight: 700;
   color: var(--color-default);
 }
@@ -1208,7 +1209,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .section-title {
-    margin-bottom: 3.75rem;
+    margin-bottom: 2rem;
     font-size: 1.25rem;
   }
 
@@ -1275,7 +1276,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .article-title {
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
     font-size: 1.25rem;
   }
 
@@ -1303,7 +1304,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .side-item {
-    margin-bottom: 3.75rem;
+    margin-bottom: 2.5rem;
   }
 
   .side-item-title {
