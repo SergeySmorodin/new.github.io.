@@ -757,6 +757,10 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
     max-height: 40rem;
   }
 
+  .header-menu {
+    padding: 0;
+  }
+
   .burger {
     margin-top: 2rem;
     margin-right: 0;
@@ -779,7 +783,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 
   .header-title {
     margin-bottom: auto;
-    padding-top: 5.9rem;
+    padding-top: 2.1rem;
     padding-bottom: 13.75rem;
     max-width: 20.625rem;
     font-size: 1.625rem;
