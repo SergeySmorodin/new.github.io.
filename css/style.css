@@ -155,8 +155,7 @@ sup {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 2.1rem 0.5rem 0 1.2rem;
-  /* padding: 1.75rem 0.9375rem 0; */
+  padding: 1.75rem 0 0;
   color: var(--color-descr);
 }
 
@@ -364,7 +363,8 @@ sup {
   height: 0.1875rem;
   margin-left: auto;
   margin-right: auto;
-  top: 1.5rem;
+  /* top: 1.5rem; */
+  top: 1.7rem;
   left: 0;
   right: 0;
   background-color: var(--color-default);
@@ -744,9 +744,9 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 
 /*==============================================*/
 @media (max-width: 640px) {
-  .flex {
+  /* .flex {
     display: block;
-  }
+  } */
 
   .header {
     /* margin-bottom: 2.75rem; */
@@ -771,12 +771,11 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .header-logo {
-    margin: 0 auto;
-    margin-top: 11rem;
+    margin: 11rem auto 0;
     width: 16.875rem;
-    height: 3.75rem;
+    min-height: 4rem;
     background-image: url('../svg/noemi-logo.svg');
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -836,8 +835,8 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   /*=======================================*/
   /*ARTICLES*/
   .articles {
-    margin-bottom: 2.75rem;
-    min-width: 21.875rem;
+    margin: 2rem auto 2.75rem;
+    min-width: 20.5rem;
   }
 
   .article {
@@ -846,7 +845,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .article:not(:last-child) {
-    /* margin-bottom: 2.25rem; */
+    margin-bottom: 2.25rem;
   }
 
   .article-image {
@@ -854,7 +853,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .article-content {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.9rem;
   }
 
   .article-title {
@@ -863,7 +862,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .article-wraper {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
   }
 
   .article-date {
@@ -890,7 +889,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .side-item-title {
-    margin-bottom: 2.25rem;
+    margin-bottom: 1.25rem;
     font-size: 1rem;
     text-transform: uppercase;
   }
@@ -898,6 +897,10 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   .post {
     width: 100%;
     margin-bottom: 1.5rem;
+  }
+
+  .list-reset {
+    min-width: 21.875rem;
   }
 
   /*=======================================*/
@@ -943,7 +946,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   .trends-list-item {
     width: 100%;
     margin-bottom: 2px;
-    min-height: 240px;
+    min-height: 14.375rem;
   }
 }
 
@@ -1170,7 +1173,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 @media (min-width: 1201px) {
   .header {
     margin-bottom: 4rem;
-    max-height: 450px;
+    max-height: 28.125rem;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url('../images/banner-bg.jpg');
     background-size: cover;
