@@ -1011,13 +1011,8 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
     margin-bottom: 3.125rem;
   }
 
-  .trends-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -2px;
- }
-
 .trends-list-item {
+  min-height: 250px;
   width: calc(50% - 4px);
   margin: 2px;
   box-sizing: border-box;
@@ -1079,7 +1074,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .article-content {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
   }
 
   .article-title {
@@ -1088,7 +1083,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .article-wraper {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
   }
 
   .article-date {
@@ -1112,11 +1107,15 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 
   .side-item {
     /* margin-bottom: 2.75rem; */
-    margin-bottom: 2.2rem;
+    margin-bottom: 0.7rem;
   }
 
   .form {
     padding: 0 0 2rem;
+  }
+
+  input {
+    margin: 0 0 40px;
   }
 
   .side-item-title {
@@ -1128,6 +1127,10 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
     width: 100%;
     margin-bottom: 1.5rem;
   }
+
+  .btn-reset {
+      margin-bottom: 2.5625rem;
+    }
 
   /*=======================================*/
   /*SHOP*/
@@ -1190,8 +1193,6 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
   .trends-list-item {
     min-height: 15.5rem;
-    /* width: calc(50% - 2px);
-    margin-bottom: 2px; */
   }
 
   .trends-list-item:nth-child(odd) {
