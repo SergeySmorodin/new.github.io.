@@ -937,12 +937,10 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   /*POPUP*/
   .popup-form {
     margin: 0;
-    top: 55px;
-    left: 15px;
-    width: 20.625rem;
+    top: 3.4375rem;
+    left: 0.9375rem;
     height: 34.125rem;
     width: 20.625rem;
-    height: 34.125rem;
   }
 
   h2.section-title.popup-title {
@@ -1156,9 +1154,24 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   /*=======================================*/
   /*POPUP*/
   .popup-form {
-    width: 24.375rem;
-    height: 36.875rem;
+    margin: 0;
+    padding: 5.9rem 1.25rem;
+    top: 14.4375rem;
+    left: 11.9375rem;
+    height: 37.4rem;
+    width: 24.5rem;
   }
+
+  h2.section-title.popup-title {
+    margin: -1.6rem 0 2.5rem;
+}
+
+  .popup-radio-name::before {
+      left: -1.8rem;
+      width: 1.5rem;
+      height: 1.5rem;
+  }
+}
 }
 
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
@@ -1391,7 +1404,22 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   /*=======================================*/
   /*POPUP*/
   .popup-form {
-    width: 24.375rem;
-    height: 36.875rem;
+    margin: 0;
+    padding: 4.125rem 1.25rem;
+    top: 15.4375rem;
+    left: 39.9375rem;
+    height: 36.4rem;
+    width: 24rem;
   }
+
+  h2.section-title.popup-title {
+    margin: -1.6rem 0 2.5rem;
+}
+
+  .popup-radio-name::before {
+      left: -1.8rem;
+      width: 1.5rem;
+      height: 1.5rem;
+  }
+}
 }
