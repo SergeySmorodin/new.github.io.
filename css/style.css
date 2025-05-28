@@ -64,9 +64,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-p {
+/* p {
   margin: 0;
-}
+} */
 
 select {
   /* -webkit-appearance: none;
@@ -110,6 +110,7 @@ sup {
 
 .btn-reset {
   padding: 0;
+  margin-bottom: -1.4375rem;
   border: none;
   background-color: var(--color-default);
   color: var(--color-descr);
@@ -675,7 +676,9 @@ sup {
 }
 
 .popup-label {
-  margin-bottom: 0.75rem;
+  width: 100%;
+  margin-right: 3.8125rem;
+  margin-bottom: 0.625rem;
   font-size: 0.8125rem;
   line-height: 1.25;
   color: var(--color-title);
@@ -684,7 +687,7 @@ sup {
 .popup-select {
   width: 100%;
   height: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.9rem;
   padding-left: 1.125rem;
   font-size: 0.8125rem;
   background-image: url('../svg/form-arrows.svg');
@@ -707,15 +710,11 @@ sup {
 
 .popup-textarea {
   height: 8.125rem;
-  padding: 1.125rem 1.25rem;
+  padding: 0.6rem 1.25rem 0 0.9rem;
   margin-bottom: 1.5rem;
   font-size: 0.8125rem;
   line-height: 1.5;
   color: var(--color-title);
-}
-
-.popup-label {
-  margin-right: 35px;
 }
 
 .popup-radio-name {
@@ -805,7 +804,7 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   }
 
   .section-title::before {
-    top: 1.5rem;
+    top: 1.7rem;
   }
 
   .trends-item {
@@ -937,8 +936,23 @@ input[type="radio"]:not(:checked) + .popup-radio-name::before{
   /*=======================================*/
   /*POPUP*/
   .popup-form {
+    margin: 0;
+    top: 55px;
+    left: 15px;
     width: 20.625rem;
     height: 34.125rem;
+    width: 20.625rem;
+    height: 34.125rem;
+  }
+
+  h2.section-title.popup-title {
+    margin: -1.6rem 0 2.5rem;
+}
+
+  .popup-radio-name::before {
+      left: -1.8rem;
+      width: 1.5rem;
+      height: 1.5rem;
   }
 }
 
